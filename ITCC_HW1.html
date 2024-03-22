@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>ITCC Homework 1</title>
+</head>
+
+<body>
+
+<b>ITCC Homework 1</b><br>
+<i>Due Tuesday, July 6 at 6:00am PST (due to July 4th festivities)</i><br><br>
+
+<a href="https://github.com/danwilhelm/itcc/tree/main/src/Framework">DOWNLOAD</a> the supplemental files.<br>
+
+<p>All assignments use the graphics framework. Look at the Lecture 1 slides on <s>http://pclx.com/itcc</s> for more information on how to complete these assignments. Use HW0's code and the slides as a guide. Our goal with these assignments is not to be strict or exact, but to allow each student to experiment and come up with his own solution to a rather flexible question. Some of the following homework is in the lecture 1 slides, but it was not discussed by Danny; however, that material is more for fun than anything else, and it should be easy to pick up from the lecture slides (hint: try copying verbatim most of the commands from the slides). Remember that if you need to render graphics to the screen, they should go inside the while loop so they will be rendered. We shall reply to your submission with comments on your code.</p>
+
+<p><b>PLEASE SUBMIT A SINGLE .cpp FILE TO <s>ITCC_TEACHERS@PCLX.COM</s> WITH YOUR SOLUTION WITH A COMMENT AS THE FIRST LINE OF YOUR FILE IDENTIFYING YOURSELF. PLEASE DO NOT RESUBMIT YOUR SOLUTION, EVEN IF IT IS INCORRECT THE FIRST TIME. THE SINGLE .cpp FILE SHOULD HAVE #2 and #3 WORKING CORRECTLY. YOU DO NOT HAVE TO WRITE ANSWERS TO THE QUESTIONS.</b></p><br>
+
+<p><b>Challenge #1.</b> We have been given a file called HW1_Sample.cpp that uses the graphics framework, but we don't know how to make it an executable! It's up to you to make a new project, add the .cpp file to it, then run the result. To make a new project, go to File->New->Project... You want to create a blank C++ Windows Application -- DO NOT CREATE a Console Application. I recommend that you set the Project's Location to be in the directory you just extracted so you have easy access to the Framework. You'll need to disable one compiler option as well ... if you go to Project->Settings ... (VC6) or right-click on your project title in the Solution pane and select Properties ... (others), there will be a C/C++ tab. Select Precompiled Headers, and turn these off! Back in the solution pane, add the .cpp file to your project by copying it into the new directory through Explorer then by right-clicking on your project folder in the solution pane and selecting Insert->Existing Item... Now try building it and running the resulting EXE! You'll also need to copy the .dll file from the Framework directory into your new project folder so it can dynamically link the framework code.</p>
+
+<p><i>To make a new project, do the following (VS 2002/2003):</i>
+File->New... then under Visual C++ Projects, select Win32 Project. After clicking OK, go to the Application Settings tab and make sure you're creating an Empty Project and a Windows application. Now disable precompiled headers. Finally, add the new .cpp file to your Source Files folder by right-clicking on Source Files and selecting Add->Add Existing Item...</p><br>
+
+<p><b>Challenge #2.</b> The purpose of this challenge is to introduce you to the graphics framework. Write over the HW1_Sample.cpp file that you copied to your new project directory to start this challenge. Create a full-screen application by commenting out InitWindowed(...) and replacing it with InitFullScreen(...) (HINT: To exit from the full screen application, either press Escape or Alt-F4), setting its parameters to generate a 640x480 window with 32-bit color. Experiment with the SetPixel routine (using RGB32 to generate the color). Light five pixels on the screen, one at each of the four corners of the client and a fifth in the very center of the screen. Each should be lit to a different color. Try changing the bits per pixel from 32 to 16. Remember to replace the RGB32 macro with either the RGB16a or RGB16b macro (depends on your video card, start out by guessing) to make it construct the color correctly. Finally, try changing the video resolution to another popular mode such as 800x600 or 1024x768. Try changing the video resolution to the resolution that your desktop is already set to. Is switching to this mode any faster?</p><br>
+
+<p><b>Challenge #3.</b> The purpose of this challenge is to introduce you to if statements. Add the following onto your Challenge #2 cpp file. Inside the rendering loop, we can get user input from the keyboard by using the KEYDOWN macro as mentioned in the slides. Try applying this concept by detecting when the user has pushed several important keys such as the up, down, left, and right arrows (VK_UP, VK_DOWN, VK_LEFT, VK_RIGHT). Remember that to be processed, these if statements need to be placed within the while loop. For some of the keys pressed, only display text when the key is pressed. For others, display a message saying whether the key is pressed or not pressed. For the rest, display an arrow using pixels in the direction indicated. Exit the program (use itcc->Exit()) if the Escape key (VK_ESCAPE) is pressed. Once you do this, we'll already have the beginnings of a simple game!</p>
+
+<p><a href="../"><s>www.pclx.com</s></a></p>
+
+</body>

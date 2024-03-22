@@ -1,0 +1,1457 @@
+Session Start (nullserver.fr.eu.diboo.net:#itcc): Thu Jul 01 20:30:05 2004
+<psyklic> what does everyone think so far of the slides? 
+<wezman2k> alright, is there an option in TS to host?
+<khehtra> OOO can i call u Professor Psy
+<Zinoviev> Oh, so, you still might be able to take connections?
+<reversEnginer> Gah, you have to get TS server
+<reversEnginer> not TS client
+<MrDeadDoll> I got through them, but the last few were pretty rough
+<Zinoviev> Slides are cool. 
+<Sargos> Is it up now then Wolf?
+<bigmano5> the slides are good
+<WolfSpring> I have TS server, i've ran it forever
+<WolfSpring> yeah i think so, if not it's my router
+<WolfSpring> my game clan gets on it all the time no problems
+<wezman2k> hold on i'm getting the server
+<MrDeadDoll> k
+<bigmano5> k
+<reversEnginer> err r
+<Zinoviev> Nope. Error
+<khehtra> same here
+<MrDeadDoll> same
+<WolfSpring> WTF I can't figure it out it works for them, 
+<Zinoviev> Ok, I'll wait for ya Wez
+<Elfs1der> err
+<wezman2k> i'm quitting netmeeting though
+<m> me too
+<psyklic> ok guys, so first off, what are some errors people have not been able to resolve yet when compiling the HW0 material? 
+<MrDeadDoll> k
+*** Signoff: Sargos (Connection reset by peer)
+<psyklic> anything? has everyone gotten the first two apps to compile then? 
+<MrDeadDoll> Yeah, from help lol
+<bigmano5> it compiled fine for me on visual c++ 6
+<Zinoviev> I actually had no problems with it. Except when you had us actually force errors.
+<Zinoviev> VS.NET 2004
+<Zinoviev> 2003 that is
+*** Anonymous (~Anonymous@diboo-3A94ADCC.gt.rr.com) has joined channel #itcc
+<m> no errors
+<Kaize> haven't even look at it yet ;/
+*** Anonymous is now known as Sargos
+<Ari> mine worked, but when i made changes to the code and tried to recompile my vs 2005 froze up and refused to exit
+<Dimitris> yes
+<psyklic> Zinoview: did you turn on the Level 4 errors then? 
+<WolfSpring> it won't stay public
+<psyklic> Zino: what do you mean by force errors? 
+<Zinoviev> Hmmmm. The level 4 errors?
+<MrDeadDoll> the ones u made us put in im guessing
+<Zinoviev> Oh, no, if I remember right, you had us try to compile without "using namespace std" so there was no references for cout...
+<khehtra> i havent got the HWo finished keep getting windows.h thing
+<MrDeadDoll> yeah
+<bigmano5> like comment out using namespace std
+<bigmano5> and see what errors there were
+<psyklic> Zino: right, those are actually warnings ... they were just unreferenced parameters in the WinMain function 
+<MrDeadDoll> kheh, i had the same problem, there is a whole topic on it in the boards
+<Zinoviev> Ahhh. 
+<m> any luck on teamspeak?
+<Elfs1der> HUH? what apps are we talkinga bout, we already got hmk
+<Elfs1der> ?
+<khehtra> i tried fixing it with the tools>options>VS C++ directory and that was a no go
+<MrDeadDoll> pre-homework
+<MrDeadDoll> lol
+<MrDeadDoll> it wasn't due
+<Zinoviev> Actually that was on the HelloWorld, not the HelloGraphics.... I did also have the runtime error when trying the graphics program, like you stated in the forums
+<psyklic> we have posted HW0 ("pre-homework") at (Link: http://pclx.com/itcc)http://pclx.com/itcc 
+<Elfs1der> oh ok
+<wezman2k> SETTING UP THE SERVER NOW
+<MrDeadDoll> yay
+<psyklic> i apologize for the runtime error, we're getting it resolved 
+<reversEnginer> yay :-D
+<Ari> is hw1 going to be on the web tonight?
+<psyklic> yes 
+<bigmano5> cool
+<Ari> cool
+<psyklic> well, the main way to learn programming is through practice 
+<EugeneF> You mind typing in bold?
+<psyklic> sure 
+<Zinoviev> no big deal.
+<MrDeadDoll> yeah thanks
+<EugeneF> Thanks.
+<Zinoviev> :)
+<Sargos> Why are we using a custom framework anyway? Why not draw on a windows form?
+<Elfs1der> change ur text colour
+<Ari> and stand on a stool
+<MrDeadDoll> lol
+<psyklic> lol 
+<Elfs1der> thx
+<m> i think bold is good enough...
+<Ari> lol
+<psyklic> ok, windows programming using MFC is rather complicated 
+<bigmano5> lol
+<psyklic> we thought that using graphics would be a lot more exciting for people 
+<Zinoviev> I like the font treatment....
+<Elfs1der> yea graphics is coo
+<MrDeadDoll> yup
+<bigmano5> yea
+<Ari> mfc?
+<Zinoviev> ID3DXFont->DrawText(
+<Elfs1der> wez hows the server coming?
+<wezman2k> one minute
+*** Signoff: Zinoviev (Connection reset by peer)
+<psyklic> ID3DXFont exists, yes, but it uses DirectX, and DirectX is pretty complex for a beginner 
+<psyklic> the framework itself uses DirectDraw, which is from DX 7.0 
+*** Anonymous (~Anonymous@diboo-2118FE39.evrtwa1.dsl-verizon.net) has joined channel #itcc
+*** Anonymous is now known as Zinoviev
+<JW> that's ok
+<khehtra> this class is recommeded for ppl who dont really no much of ne C++ or C right?
+<wezman2k> daniel, do i need to log into superadmin or admin
+<Zinoviev> I got logged out.
+<psyklic> khetra: yes 
+<psyklic> superadmin 
+<psyklic> ok, so the way to learn programming is through practice :) 
+<psyklic> get a book from the library and follow along with these lectures 
+<psyklic> and actually program things 
+<bigmano5> i always get lost when i get to more complicated stuff like pointers and classes
+<psyklic> i think as we get started with graphics you'll have a lot of neat ideas to program 
+<khehtra> yah i went on amazona  few and went shopping crazy
+<reversEnginer> *yawn*
+<Sargos> Less off topic stuff =\
+<psyklic> bigmano: i agree, that's tough stuff ... but i really think that this framework will make both easier 
+<MrDeadDoll> i didn't think of the library, good idea
+<Zinoviev> I bought: Practical C++ Programming: O'Reilly
+<Sargos> Less psy talk
+<psyklic> since we'll have a pointer to the video buffer 
+<bigmano5> cool
+<psyklic> and we'll actually get to see the results of what we stick into offsets from that pointer 
+<psyklic> ok any ideas on how C++ is different from C? 
+<psyklic> (slide 5) 
+<Zinoviev> Object Oriented.
+<bigmano5> because c++ is oop
+<wezman2k> alright folks i've never done this before but hold un just be patient
+<psyklic> nice and what is OO? 
+<m> object oreinted!!
+<m> (spelling)
+<ChaosCommand> programming focused on encapsulation?
+<psyklic> with OO, we think in terms of OBJECTS, like chairs and people 
+<ChaosCommand> (spelling)
+<ChaosCommand> yah
+<psyklic> there are certain properties that objects have like color 
+<reversEnginer> ...density
+<MrDeadDoll> shape?
+<Ari> and they can inherit attributes from superclasses..
+<psyklic> and there are certain subclasses of objects, like a Postal Worker is a type of human 
+<Zinoviev> actions... too
+<psyklic> exactly 
+<psyklic> so a human can do things like walk 
+<psyklic> C++ has been shown to be more intuitive 
+<psyklic> apps usually take less time to write 
+<wezman2k> 24.197.197.120
+<wezman2k> try to connect
+<psyklic> and people understand it easier 
+<wezman2k> with teamspeak
+<bigmano5> ok
+<psyklic> in general 
+<m> error.
+<Elfs1der> err
+<wezman2k> password is shank
+<khehtra> error
+<reversEnginer> eer argh
+<wezman2k> shank is the password
+<ChaosCommand> ERROR
+<psyklic> error 
+<psyklic> lol 
+<bigmano5> error
+<EugeneF> uhm...one second...superclasses are child classes?
+<Elfs1der> err
+<m> error.
+<reversEnginer> err ergh
+<EugeneF> Actually it doesn't matter what we call them just keep talking.
+<Elfs1der> so is there going to be a lecture tonight or not/
+<psyklic> yes a child class is something like a POstal worker is a type of human 
+<Zinoviev> Error.
+<psyklic> Elfs: i believe this will be the closest we can get i'm afraid ... 
+<wezman2k> server uptime is 8 minutes now
+<wezman2k> i don't understand why this won't work
+<psyklic> wreak isn't going to be able to host the TS like he said :( 
+<EugeneF> Okay.
+<psyklic> our host was killed and he's trying to restore it 
+<khehtra> so C++ wraps things up faster then C ?
+<Elfs1der> ok 
+<Ari> superclasses are the ones at the top of the tree
+<Elfs1der> so what are we going to start off with?
+<EugeneF> So, what's the lesson plan?
+<MrDeadDoll> we're doing it
+<MrDeadDoll> lol
+<psyklic> i'm following the lecture notes on-line :-) 
+<Elfs1der> or should u say bottom of the tree
+<bigmano5> lol
+<EugeneF> Okay :)
+<Ari> top
+<psyklic> i'll also talk for an hour, save that as an mp3, then post it on the site 
+<psyklic> if you'd like to download it later 
+<Elfs1der> ok cool
+<MrDeadDoll> so subclasses are childclasses? what are childclasses??
+<khehtra> :)
+<bigmano5> cool
+<Ari> but subclasses underneath can inherit their attributes and have more
+<MrDeadDoll> im confused lol
+<psyklic> i'll also post this transcript 
+<Zinoviev> So, we've given up on teamspeak, right?
+<Ari> thanks
+*** Signoff: Xilo (Quit:  PJIRC forever!)
+<bigmano5> looks like it
+<khehtra> lets try ventrillo next time
+<Elfs1der> ok well everyone shut it, let me prof speak he stuff
+<psyklic> so after this check the site tomorrow and hopefully there will be an mp3 of this lecture with me talking and this log 
+<wezman2k> WAIT I FORGOT TO FORWARD THE PORT
+<Zinoviev> Cool.
+<bigmano5> ok
+<bigmano5> lol
+<psyklic> next week we'll make absolutely certain that we are running smoothly, so please stick with us 
+<m> sad.
+<bigmano5> ok
+<Elfs1der> ok
+<MrDeadDoll> k
+<psyklic> i consider most of the experience of this class to be the online communication, and most of that is not done in the lecture part :-) 
+<Zinoviev> Is there a username wezman?
+<psyklic> now (Slide 6) C/C++ comes with a lot of standard commands that you can use 
+<psyklic> it includes things that for instance can handle strings of text, it can manage memory, etc 
+<psyklic> however, since C is not platform-specific 
+<Zinoviev> The SDKs slide?
+<psyklic> things like Windows commands and DirectX commands are not standard ware 
+<psyklic> yes 
+<ChaosCommand> connection established
+<ChaosCommand> bad name though
+<ChaosCommand> so i take that back
+<psyklic> So Microsoft and lots of other groups have released SDKs, Software Development Kits, to help us use other products such as Windows 
+<m> i'm in!!
+<Sargos> C can't handle strings natively?
+<Zinoviev> I'm in too
+<reversEnginer> dude, teamspeak is up
+<MrDeadDoll> link engaged
+<psyklic> ok let's try this 
+<m> i hear Zinoviev
+<ChaosCommand> it says "Bad Name"
+<Zinoviev> Can anyone hear me?
+<MrDeadDoll> zino sounds mad
+<MrDeadDoll> lol
+<Goply> bad name with me also
+<MrDeadDoll> yay
+<m> i don't know how to talk
+<Dimitris> hehe
+<Sargos> Whats password again?
+<MrDeadDoll> new player
+<ChaosCommand> what are the setttings???
+<m> shank
+<MrDeadDoll> shank
+<MrDeadDoll> just now
+<m> what's the default talk button?
+<ChaosCommand> what's the Login Name and Password?
+<psyklic> shank is the password 
+<reversEnginer> no login
+<reversEnginer> pass is shank
+<m> there is no NAME
+<khehtra> say something again psy
+<MrDeadDoll> shank
+<ChaosCommand> got it
+<MrDeadDoll> yes
+<khehtra> yes
+<Ari> yea lol
+<bigmano5> whats the talk button :\
+*** Signoff: wezman2k (Ping timeout)
+<psyklic> can everyone join wez's server? 
+<m> i am
+<psyklic> 24.197.197.120 ... password 'shank' 
+<MrDeadDoll> yes
+<Elfs1der> shank is the what password the channel pass or user?
+<reversEnginer> Chaos, lower your bitrate
+<Ari> lol mine stutters when more than 1 person tries 2 speak
+<m> i have a suggestion... only psyklic talks in teamspeak
+<m> otherwise it gets confusing
+<MrDeadDoll> i agree
+<Ari> hehe yup
+<Elfs1der> i cant get in
+<reversEnginer> Good idea
+<m> m :D!
+<Zinoviev> Sounds like a plan
+<MrDeadDoll> otherwise its crazy lol
+<Zinoviev> We can ask questions through chat
+<Elfs1der> wait for me guys
+<Ari> chaos begs to differ
+<bigmano5> yea
+<Elfs1der> lol
+<reversEnginer> Chaos...?
+<Elfs1der> i cant get in
+<m> chaos omg
+<reversEnginer> just mute Chaos
+<m> turn your mic off
+<khehtra> cant u mute ppl
+<Elfs1der> yay
+<m> you have speakers?
+<MrDeadDoll> everyone turn mics off but him
+<MrDeadDoll> lol
+<Elfs1der> im in
+<Sargos> Everyone turn on push to talk
+<MrDeadDoll> omg lol
+<m> is that his kids in the background?
+<reversEnginer> what the f*ck!
+<m> rlui
+<Ari> haha
+<MrDeadDoll> AHH!
+<reversEnginer> mute!!
+<Sargos> Disconnect your microphones =\
+<m> i can't hear psyklic :/
+<Goply> turn your mics off pls
+<MrDeadDoll> muteeeeeee
+<MrDeadDoll> omgggg
+<MrDeadDoll> ong ong
+<MrDeadDoll> lol
+<bigmano5> lol
+<Elfs1der> i cant here anything but rlui
+<Ari> its like im trying to tune the right radio station in
+<Sargos> Click self-->MUTE MICROPHONE
+<MrDeadDoll> your connection to the server has been terminated
+<Zinoviev> Holey Mackerel. Server died
+<WolfSpring> yeah i can't get in either
+<psyklic> ok that was fun 
+<reversEnginer> wow, that was a disaster :-P
+<Elfs1der> what happend to the server
+<khehtra> lol
+<m> died =[
+<MrDeadDoll> lol
+<bigmano5> lol
+<Ari> lol
+<ChaosCommand> yes major disaster
+<m> what the crap chaos
+<MrDeadDoll> wow
+<Sargos> Just post instructions on how to mute yourself and it will be fine
+<Zinoviev> Nuclear bomb go off on the server?
+<ChaosCommand> i believe so
+<reversEnginer> the worst thing was the guy with the kids
+<Ari> lol
+<khehtra> cant u setup server for one speaker?
+<m> yeah
+<Elfs1der> yea
+<ChaosCommand> rlui
+<Zinoviev> No doubt
+<MrDeadDoll> only instructor should have mic on anyways
+<JW> I have to go
+<bigmano5> go to options and do press button to talk
+<JW> later
+<JW> bye
+<psyklic> later sorry :P 
+<bigmano5> later
+<JW> ok
+<Elfs1der> later what?
+<rlui> hey guys, i don't even have a mic connected
+<Sargos> Click self-->Mute Microphone. THen you will have an icon next to your name thats mute.
+<Elfs1der> oh cya
+<psyklic> i'm here 
+*** Signoff: JW (Quit:  PJIRC forever!)
+<psyklic> ok so is the server running again? 
+<Zinoviev> Are we going to try again?
+<khehtra> server dead
+<MrDeadDoll> error
+<psyklic> ok guys, no more server 
+<Zinoviev> :<<
+<reversEnginer> do you know what your bitrate is set to, psyklic?
+<bigmano5> lol
+<psyklic> no sorry 
+<psyklic> i'm just going to finish like this 
+<Elfs1der> thats ok
+<Zinoviev> Ok, sounds good
+<reversEnginer> ok
+<MrDeadDoll> k
+<bigmano5> ok
+<psyklic> so wreak wrote something on the boards about why he didn't have the server running 
+<MrDeadDoll> ok
+<psyklic> and next time we'll do everything possible to have this working 
+<psyklic> please follow along in your slides 
+<psyklic> (Slide 7) 
+<Elfs1der> may i have the link for the slides
+<bigmano5> lol
+<psyklic> (Link: http://pclx.com/itcc)http://pclx.com/itcc 
+<Elfs1der> i have the old ones
+<Elfs1der> thx
+<psyklic> so it turns out the lowest language you can use to talk to your processor is called 'machine language' 
+<psyklic> everything you know is made up of zeros and ones in a computer 
+<psyklic> and machine lang is no exception 
+<psyklic> however, it's really tough to read by hand 
+<psyklic> and only part of it can be converted to human-readable form 
+<ChaosCommand> so which is lower, assembly or binary?
+<psyklic> the output of this is called 'assembly language' 
+<Elfs1der> binary
+<psyklic> binary 
+<ChaosCommand> alright
+<psyklic> so when you use that, you're directly talking to the processor, command by command telling it what to do 
+<psyklic> so 
+<psyklic> with C, the EXE you make 
+<psyklic> is actually a bunch of machine language 
+<psyklic> that directly talks to the processor 
+<Zinoviev> no runtime
+<psyklic> and when you write code, like ... "if (i == 0)", then that directly translates to machine code 
+<Elfs1der> and thats what the compiler is for right, to convert to binary or assembly?
+<psyklic> yes 
+<ChaosCommand> converts to binary i think
+<Elfs1der> binary?
+<Elfs1der> ok
+<psyklic> if you want to call it binary :-) 
+<m> an exe is assembly...
+<psyklic> binary/machine language 
+<m> right. ?
+<MrDeadDoll> ok
+<Elfs1der> continue
+<psyklic> this can be different for different operating systems and processors 
+<psyklic> so a separate compiler per OS and processor is necessary 
+<psyklic> although the different OS compilers are usualyl pretty similar if they use the same processor 
+<psyklic> (Slide 8) 
+<psyklic> ok, so when we build a C++ project 
+<psyklic> we start with code 
+<psyklic> then we conver that into *object files* 
+<psyklic> only ONE source file gets converted into ONE object file in general 
+<psyklic> and this step is necessary b/c we can spread code out among lots of files 
+<psyklic> lots of files 
+<psyklic> and some code needed in one file might be found in another 
+*** CuMSh0tz (~wezman2k@diboo-3F16956B.man.mn.charter.com) has joined channel #itcc
+<CuMSh0tz> well am i missing out on anything
+<psyklic> the compiler can't find the code in another file if it hasn't parsed it yet 
+<psyklic> so we make lots of object files 
+<psyklic> and then after the COMPILE stage, there's a LINKING stage 
+<psyklic> where it takes lal of the object files and LINKS them together 
+*** CuMSh0tz is now known as wezman2k
+<psyklic> after that, if it's found all of the necessary files 
+<Elfs1der> what is parse exactly?
+<psyklic> and it has code for all of the defined symbols 
+<MrDeadDoll> is that where the includes come in?
+<Sargos> whats a symbol?
+<psyklic> it parses your C++ code and converts it into object files/a combination of machine code and special compiler files 
+<psyklic> a symbol just stands for something else 
+<psyklic> include files in fact 
+<wezman2k> like a variable?
+<Elfs1der> yea
+<psyklic> are usually a bunch of symbols that are defined elsewhere in a file 
+<psyklic> so includes usually say "there's code out there that does THIS" 
+<psyklic> but we actually need to parse that .cpp file to find the code 
+<psyklic> so what's important out of this is 
+<psyklic> we go through COMPILING then LINKING 
+<psyklic> and then you get your EXE 
+<psyklic> and this whole process is called BUILDING a project 
+<psyklic> (Slide 11) 
+<psyklic> you can see that in Visual Studio, these terms are used in the drop down menus 
+<Ari> so compiling is parsing the cpp files into their own object files which are then linked.?
+<Sargos> Why is it not just one step? Why are .obj files necessary if they arent used again?
+<psyklic> that's exactly right :) 
+<psyklic> the OBJ files are an intermediate form ... let's say that we change a single thing in one file 
+<psyklic> but not in any other file 
+<psyklic> it's a lot faster only to have to recompile the one file 
+<psyklic> so we can use the precompiled object files as sort of a speed up in thisc ase 
+<khehtra> so its like a backup?
+<psyklic> does that make sense? 
+<Ari> yea
+<psyklic> not a backup, the object files are mainly machine code already 
+<Zinoviev> yep
+<MrDeadDoll> so humans don't code object files?
+<MrDeadDoll> they are already made?
+<psyklic> if we had to compile an ENTIRE project every time we made a change, it would be very slow 
+<psyklic> right, the compiler will make object files for you 
+<MrDeadDoll> k
+<psyklic> (they're mostly that human-unreadable stuff anyway ;)) 
+<wezman2k> so what do you do when you make a change
+<MrDeadDoll> gotcha
+<wezman2k> relink them?
+<m> but don't get that confused with objects.. and classes...
+<Elfs1der> this is what makes cpp better than other langs?
+<bigmano5> ok
+<psyklic> the CLEAN step you see is removing a bunch of the intermediate files like OBJ files 
+<psyklic> yes it recompiles the files that need to be and then relinks them 
+<psyklic> no, most languages can do this 
+<ChaosCommand> what is the use of cleaning the intermediate files?
+<psyklic> to save hard drive space :) 
+<Zinoviev> Very cool, never saw the clean function before!
+<psyklic> they're usually very large 
+<ChaosCommand> oh :)
+<psyklic> (Slide 12) 
+<psyklic> ok 
+<psyklic> so you've witnessed some compile-time errors 
+<MrDeadDoll> :)
+<psyklic> let's say it can't find a certain #include file 
+<psyklic> like windows.h 
+<khehtra> :)
+<psyklic> right? it then can't convert a file into object code! 
+<psyklic> so that's a compile time error 
+<psyklic> also, what if you spell a command wrong? 
+<psyklic> it ahs no idea what you're saying! 
+<psyklic> so that's a compile-time error 
+<psyklic> what about a linkage error? 
+<MrDeadDoll> is that a logic error too?
+<psyklic> nope 
+<MrDeadDoll> k
+<psyklic> a logic error is something like that framework bug you noticed 
+<Zinoviev> Can't link two files because one is missing or something?
+<MrDeadDoll> ok
+<psyklic> or actually, that's a run-time error, probably somewhat borderline 
+<psyklic> zino: that's a linkage error 
+<Zinoviev> Gotcha
+<Goply> forgot to put a command in (missing your cout)?
+<psyklic> Goply: if you forgot a cout, that's a logic error 
+<psyklic> right, good one! 
+<Ari> are logic errors ones that compile ok but have undesireable output effects?
+<psyklic> for instance, i forgot to pause the text before it left the window 
+<psyklic> that's my error 
+<psyklic> it's something i didn't want to happen 
+<psyklic> but it's perfectly legal code-wise 
+<Elfs1der> yes
+<psyklic> so that's a logical error 
+<khehtra> OoOO
+<psyklic> Ari: yes 
+<Dimitris> worst mistakes
+<MrDeadDoll> ah!! ok
+<MrDeadDoll> now i get it
+<psyklic> yep, hardest to catch 
+<psyklic> Linkage-errors 
+<wezman2k> std::system("pause");
+<psyklic> let's say that we say there's a function somewhere 
+<psyklic> wez: hey, good OO one :) 
+<wezman2k> lol
+<wezman2k> i had to use it in something i wrote
+<psyklic> and we call the funciton, but we never provide the code 
+<psyklic> for it 
+<psyklic> so the compiler would compile the file OK 
+<psyklic> but it wouldn't be able to find the code for part of the file 
+*** Signoff: WolfSpring (Connection reset by peer)
+<psyklic> we tell it , HEY, there's some code somewhere that will put a pixel on the screen and it'll go here 
+<wezman2k> actually if you use a function without defining it doesn't it give you a compile-time error
+<psyklic> but the linker can't find that code, that's a linkage-error 
+<wezman2k> except main
+<psyklic> right, that's a linkage error 
+<wezman2k> main()...excuse me
+<Zinoviev> Like if you provided a prototype, but never defined the function right?
+<psyklic> and finally, a run-time error is something like that bug in my framework 
+<psyklic> it isn't noticable until runtime when it says there was a corruption 
+<psyklic> Zino: exactly, that's a linkage error 
+<Zinoviev> :)
+<psyklic> (Slide 13) 
+<Ari> is that like not implementing an interface in java?
+<psyklic> ok, so we say #include 
+<psyklic> Ari: yes 
+<psyklic> you can think of #include as being replaced by the file you mention 
+<psyklic> so instead of #include "Queue.h" it replaces that whole line with the contents of Queue.h 
+<wezman2k> what is the difference between the tags
+<ChaosCommand> so could you somehow mess up your program if you get the order of #include's wrong?
+<wezman2k> like #include <iostream>
+<psyklic> yes 
+<khehtra> so what ever is in queye.h will be put in that spot?
+<psyklic> but not usually 
+<wezman2k> and #include "Queue.h"
+<psyklic> yes 
+<psyklic> you can think of it that way 
+<psyklic> the way the compiler implements it could be different 
+<MrDeadDoll> like server side includes
+<psyklic> somewhat yes 
+<Zinoviev> You can do paths in #include statements too, right?
+<psyklic> paths? 
+<Zinoviev> #include "../../myfile.h"
+<reversEnginer> like.. system directory paths?
+<wezman2k> i think he means like a directory
+<wezman2k> yeah
+<psyklic> so you can put whatever you want to in a header file, even code 
+<psyklic> yes 
+<psyklic> paths work 
+<Zinoviev> :)
+<MrDeadDoll> sweet
+*** WolfSpring (~WolfSprin@diboo-15D0F03.net1268.nc.sprint-hsd.net) has joined channel #itcc
+<Sargos> Why are header files even needed?
+<wezman2k> could you write an entire program with just headers?
+<psyklic> but in general you shouldn't because code is supposed to go in .cpp files! 
+<psyklic> yes you could! 
+<Ari> why is Queue.h in quotation marks and <windef.h> is not?
+<wezman2k> Ari: that's what i asked
+<psyklic> but let's again say you have code spread all over the place 
+<MrDeadDoll> next slide :)
+<wezman2k> header files are used to organize the code
+<Goply> if you use paths, wont it have problems when installed on a differant computer? is there a way around that (or is that something to talk about later?)
+<psyklic> you need to tell the compiler that HEY, i have a SetPixel function ... somewhere 
+<psyklic> and I'm going to send that function certain data 
+<psyklic> and this is what i'll send it -- an x position, y pos, and color 
+<wezman2k> when programs start to get pretty large, it can get complicated having all of the function declarations in the cpp file
+<psyklic> so you'll do that in a header file, tell it that a certain block of code EXISTS and this is the data i'm going to pass to it 
+<psyklic> wez: exactly 
+<psyklic> in general, you want to make your programs readable :) 
+<wezman2k> it's basically just a system of organization
+<psyklic> (Slide 14) 
+<psyklic> so ... we can #include things using "" or <> 
+<wezman2k> yeah that was my question
+<wezman2k> what's the difference
+<psyklic> if we use "" then the file to include will be in the SAME DIRECTORY as our .cpp file 
+<Ari> ah ok
+<psyklic> if we use <>, then the file to include will be in a directory that we told the compiler about earlier 
+<Elfs1der> also if u want to use some code in a different program
+<psyklic> so windows.h 
+<wezman2k> oh yeah, i forgot, so the <> is in some other directory
+<psyklic> i don't know where windows.h is! 
+<wezman2k> that is in visual studio though right
+<psyklic> i could have installed VS in any dir on my computer! 
+<psyklic> yes 
+<wezman2k> visual studio knows
+<Elfs1der> imagine if u had to copy/paste all of the windows.h stuff into your program to make it work
+<psyklic> so if i pass around my code to you 
+<Zinoviev> And you specify it in your VS project or the VS Global settings
+<psyklic> i shouldn't put the path to windows.h or you would never be able to find it 
+<Zinoviev> Right? (or you can anyway...)
+<psyklic> so right you specify where windows.h can be found in your global settings 
+<psyklic> and that way i can share my code with you 
+<wezman2k> isnt' that already done though in VS?
+<psyklic> and not have to worry about where exactly windows.h is stored 
+<psyklic> yes it's usually aleady done 
+<psyklic> does that make sense? 
+<wezman2k> i can include windows.h and use that code without having to mess with anything really
+<ChaosCommand> yup
+<MrDeadDoll> Yes
+<Zinoviev> :)
+<Dimitris> yes
+<psyklic> ok 
+<bigmano5> yea
+<psyklic> (Slide 15) 
+<psyklic> these are comments 
+<ChaosCommand> comments rule
+<psyklic> if you type // then everything after it is not parsed by the compiler 
+<wezman2k> comments are my favorite part of a C++ program
+<psyklic> so you can type in human-readable stuff :) 
+<Elfs1der> lol
+<MrDeadDoll> yay
+<psyklic> the key is not to undercomment and not to overcomment 
+<psyklic> when you write words, don't just say exactly what the command is 
+<bigmano5> which is hard
+<wezman2k> i think it's better to overcomment than it is to overcomment
+<Elfs1der> just to make it understandable
+<psyklic> SetPixel(0, 0, ...) // Sets a pixel 
+<psyklic> is dumb 
+<wezman2k> oops, better to overcomment than to undercomment
+<Ari> lol
+<ChaosCommand> do comments take up space?  I mean, do they affect a program's speed?
+<psyklic> but if you have a lot of SetPixel() commands in a group, you can say // Draws a star 
+<wezman2k> but that can't hurt though daniel can it?
+<psyklic> Chaos: no speed changes 
+<ChaosCommand> alright, good
+<psyklic> it can affect compilation speed, but very minorly 
+<psyklic> they aren't even parsed 
+<psyklic> so put in as many as are needed 
+<psyklic> (Slide 16) 
+<ChaosCommand> so the compiler just ignores it
+<psyklic> right 
+<psyklic> ok 
+<psyklic> so first off 
+<psyklic> notice we have our #includes 
+<wezman2k> alright since i was messing with the TS server earlier can you give me a brief explanation on what it is to "parse" something
+<wezman2k> or what the parser is
+<psyklic> sure 
+<khehtra> yah
+<khehtra> plz
+<psyklic> the compiler will analyze every line of your code and break it down into different symbols 
+<Elfs1der> hehe same thing i asked
+<wezman2k> asm?
+<psyklic> that's basically what a parser is 
+<bigmano5> k
+<psyklic> you can write a parser 
+<wezman2k> so what's the difference between the compiler and the parser
+<psyklic> that just analyzes a sentence and breaks it into words, right? 
+<wezman2k> the compiler?'
+<psyklic> the compiler will try to connect all of these symbols and actually convert them into object files 
+<psyklic> the parser will just figure out the important parts of the code and how you have organized your writings 
+<psyklic> not the best expl, but that's basically it 
+<psyklic> : 
+<wezman2k> i see
+<bigmano5> i get it now
+<khehtra> ic ic
+<psyklic> so a parser would parse a sentence into words 
+<Zinoviev> parser tries to understand your code : a compiler translates it into machine language.
+<psyklic> a compiler might try to "understand" the word's meanings 
+<wezman2k> alright now i understand c++
+<psyklic> lol 
+<psyklic> ok 
+<MrDeadDoll> lol
+<psyklic> so we have the #includes 
+<psyklic> take a look at int main(void) 
+<psyklic> this is where our app will start 
+<psyklic> when we run the EXE, it will start with whatever code is inside those braces 
+<Elfs1der> its not nessecary to have the void in the () is it?
+<psyklic> so in this case, the cout command 
+<wezman2k> no it's not elf
+<wezman2k> he's just saying it returns void
+<Elfs1der> ok cool
+<wezman2k> the same as not returning anything at all
+<psyklic> imo, you should have it to explicitly say that there is nothing there 
+<Sargos> No it returns int
+<m> heh no wez.
+<Zinoviev> Actually, it returns int.
+<m> it saying it doesn't take any arguments.
+<Ari> i thought that was the input type and it returns int
+<psyklic> i believe that that is what the official ANSI C++ standard says 
+<wezman2k> yeah my bad i got caught up
+<psyklic> yes, it returns int 
+<reversEnginer> how often should main be like:  main(void) ?
+<MrDeadDoll> int?
+<Ari> integer
+<reversEnginer> is it possible for it to be main() ?
+<MrDeadDoll> thanks
+<wezman2k> stop yelling at me
+<psyklic> yes, but not according to the ANSI C++ standards i believe 
+<Ari> lol
+<Elfs1der> ok get it
+<Zinoviev> lol
+<psyklic> there are two main forms of main you can have 
+<psyklic> one is int main(void) 
+<psyklic> the second is a little more complicated that we won't get into 
+<psyklic> but it allows you to pass in paramters after your program name from thec ommand line 
+<EugeneF> Another is void main(void) or void main() ;)
+<psyklic> in this version, you can't pass command line paramteters in 
+<psyklic> no 
+<wezman2k> that's not in the ansi standard
+<psyklic> void main() is not right 
+<EugeneF> I know that.
+<psyklic> ok ... just remember that the point of entry is the main function :) 
+<psyklic> now 
+<MrDeadDoll> lol
+<psyklic> cout is 'character out' 
+<Elfs1der> ok
+<wezman2k> i don't see main() in all source files though
+*** Signoff: WolfSpring (Ping timeout)
+<psyklic> that's correct, you only need one main() per PROGRAM 
+*** WolfSpring (~WolfSprin@diboo-15D0F03.net1268.nc.sprint-hsd.net) has joined channel #itcc
+<psyklic> some source files are made up of supplementary code 
+<wezman2k> no what i mean is i don't see it anywhere
+<wezman2k> anywhee in the source
+<psyklic> if it isn't in the source, then the code won't compile into an application 
+<WolfSpring> dangit lost internet, can someone save all of this for me so i can have a complete lecture
+<wezman2k> hmm, well i'll have to look harder than
+<psyklic> there could be a WinMain() for windows apps 
+<wezman2k> *then
+<psyklic> ok 
+<wezman2k> ah
+<psyklic> so the << there means that the text is going to the screen for display 
+<psyklic> so it's going sort of 'toward' the 'out' command 
+<psyklic> that might be one way to remember it 
+<psyklic> << is actually used in lots of different commands 
+<wezman2k> writing to cout
+<psyklic> but i'm not going to explain it here 
+<psyklic> right 
+<psyklic> and 'endl' is end line 
+<Zinoviev> << is not bitwise left shift?
+<Goply> it points in the direction the information is flowing?
+<Elfs1der> yup
+<psyklic> that's the C definition 
+<Zinoviev> Save that for later
+<psyklic> Goply: sort of  
+<Sargos> main(void) is old C style, not really used anymore.
+<psyklic> Zino: yes, that's another use for << 
+<Zinoviev> :)
+<psyklic> Sargos: right 
+<psyklic> ok 
+<psyklic> also important 
+<psyklic> there are semicolons after every command 
+<psyklic> except for #includes and int main(void) and braces 
+<psyklic> remember those 
+<wezman2k> even function definitions?
+<psyklic> not on function definitions 
+<Elfs1der> isnt there a ; after classes and structs though?
+<psyklic> they do go on function declarations 
+<psyklic> elfs: yes 
+<Elfs1der> how come
+<Elfs1der> ?
+<Zinoviev> Good one.
+<psyklic> haha that's a good question :) 
+<wezman2k> because bjarne wanted to piss people off
+<psyklic> i'm not sure 
+<wezman2k> i'm sure that's why
+<Elfs1der> isnt it because you can declare the varible inside of it?
+<EugeneF> Could you please explain what cout is and what << is. I know what they do. 
+<psyklic> perhaps ... although you can declare vars inside of function definitions too 
+<wezman2k> << is an operator
+<wezman2k> cout is command, right?
+<psyklic> sure, cout is a function 
+<MrDeadDoll> are we suppose to be understanding what ur talking about right now? lol
+<khehtra> whats endl do?
+<MrDeadDoll> vars?
+<wezman2k> << is the put to operator
+<psyklic> no, not really 
+<EugeneF> a function?
+<Elfs1der> but i mean u can declare the class outside of the class {} but inside the ;
+<EugeneF> huh?
+<psyklic> this is just a sample program 
+<wezman2k> cout << mean put to cout
+<wezman2k> put whatever follows onto cout
+<wezman2k> therefore it prints to the screen
+<Elfs1der> yea im sorry
+<psyklic> wez: yeah, that's all you need to understand for now 
+<EugeneF> is cout the same as cout.put() then?
+<EugeneF> Or not?
+<ChaosCommand> msdn.microsoft.com  (check it out afterwards for info)
+<psyklic> we'll get into this stuff later 
+<EugeneF> Will we? ;)
+<wezman2k> std::cout << "yes, this is blah" << "endl;
+<wezman2k> all of that is put to cout
+<MrDeadDoll> thank god
+<psyklic> (Slide 20) 
+<psyklic> now, i hope to use a graphics framework for this course 
+<psyklic> so that we can learn about C++ graphically rather than having to use text all the time 
+<wezman2k> things will be better once we're more organized
+<ChaosCommand> me too
+<Elfs1der> psy: sry
+<psyklic> and i think that even after this lecture you'll be able to use graphics in a simple way 
+<psyklic> np 
+<WolfSpring> OMFG I got my TS back up, prob was I was using opera, not IE
+<wezman2k> in opengl?
+<psyklic> a PIXEL is a "Picture Element", the smallest dot on your screen that can be lit 
+<Zinoviev> A little late now... ;)
+<psyklic> wez: no 
+<MrDeadDoll> i never knew that
+<MrDeadDoll> picture element
+<psyklic> right 
+<MrDeadDoll> sweet
+<wezman2k> but after this course will i be able to move on to opengl?
+<psyklic> and its size is different on different display resolutions 
+<psyklic> wez: yes 
+<psyklic> if you put your head really close to your monitor 
+<bigmano5> cool
+<psyklic> you can make out individual pixels 
+<Ari> lol
+<psyklic> for instance, on text it's a little jagged sometimes 
+<wezman2k> yeah i see them!
+<MrDeadDoll> hehe
+<khehtra> omg wow
+<psyklic> or in games there are jagged lines lol 
+<khehtra> ic ic
+<wezman2k> i love pixels
+<bigmano5> watch out its bad for your eye :p
+<wezman2k> indeed
+<psyklic> (Slide 21) 
+<MrDeadDoll> lol need new glasses
+<psyklic> ok, this is the basic graphics framework 
+<psyklic> it looks a little more complex 
+<bigmano5> ok
+<psyklic> note the #include at the top 
+<psyklic> remember that that's relative to the dir the .cpp file is in! 
+<Zinoviev> Path included!
+<psyklic> yes! 
+<psyklic> second, that #pragma is like a really weird #include 
+<Zinoviev> Can you explain the .lib file a bit?
+<psyklic> yes 
+<wezman2k> what is pragma
+<psyklic> a .lib file is like an object file 
+<psyklic> pragma is just a special preprocessor command that lets you do LOTS of different things 
+<Zinoviev> So, its not fully compiled like a .dll
+<ChaosCommand> pragma is also bad unless you are always using VS.NET 
+<ChaosCommand> ;)
+<psyklic> right, actually a .lib file contains symbols for the .dll 
+<ChaosCommand> well.. not .NET specifically, but VS
+<psyklic> OK, to try to explain this better: 
+<psyklic> a .lib file has an associated .dll file with it 
+<Goply> i was curious about what the NULL does in your code
+<ChaosCommand> .dll is just code without a main() right?
+<psyklic> the .dll file contains the compiled code in machine language 
+<ChaosCommand> oh
+<psyklic> Chaos: yes 
+<psyklic> Goply: just a sec 
+<Zinoviev> I see. So, like with DirectX, you include the .h file & .lib file and it all points at the .dll file ultimately.
+<Goply> np sorry didnt mean to interupt
+<psyklic> yes Zino, the .dll contains the code and the .lib contains sort of a map to what's in the dll 
+<Zinoviev> Cool. Thx. :)
+<psyklic> so your application can use the .lib file to see how to talk to the .dll 
+<psyklic> the reason i made it this way 
+<psyklic> is because now you don't need the DirectX SDK to compile this code 
+<psyklic> the .dll file must use the DX SDK for compilation 
+<psyklic> but your code will never use the DX SDK 
+<Zinoviev> Yep, you're using GDI... but now I understand .lib files better.
+<wezman2k> Goply: that's a while statement, while itcc->Flip IS NOT Null...run the while statement
+<psyklic> well, i'm actually using DX 
+<psyklic> ok that's still a little fuzzy 
+<Zinoviev> Oh, I gotcha.
+<psyklic> but when you run the .exe, we need to have the .dll in the same directory 
+<psyklic> for it to work 
+<psyklic> b/c there is code in the .dll 
+<Ari> so to actually make the dll u need the dx sdk, but we dont need it?
+<psyklic> right 
+<psyklic> that's it 
+<ChaosCommand> so the .dll just contains everything required from the DX SDK
+<psyklic> the .dll is code that is LINKED when you run the .exe 
+<psyklic> Chaos: basically, yes 
+<ChaosCommand> alrighty 
+<psyklic> remember that you need the .dll in the same directory as your exe when you run it so it can DYNAMICALLY LINK the code 
+<WolfSpring> which slide are we on? 21 still?
+<psyklic> yes 
+<Zinoviev> "dll" Dynamically linked library
+<psyklic> so if you'll notice in the .cpp file i gave you in HW0 
+<psyklic> Zino: good connection 
+<Zinoviev> :)
+<psyklic> there is a WinMain() function 
+<psyklic> and that's the entry point of our app 
+<psyklic> however, i set it up so that the effective entry point for us will be int Main(ITCC *itcc) 
+<psyklic> b/c windows programming is kind of tough for beginners :) 
+<ChaosCommand> got that right
+<psyklic> the ITCC *itcc will be explained later 
+<ChaosCommand> it is scary
+<psyklic> just write it in there 
+<MrDeadDoll> ok good
+<wezman2k> i'll just memorize the bjarne book
+<Zinoviev> WinProgramming = tedious;
+<psyklic> so itcc->InitWindowed will put a window on the screen with client area 640x480 
+<psyklic> the client area is the region of a window you can draw on 
+<psyklic> i also have a InitFullScreen function that will be given out with HW1 
+<wezman2k> wait a second
+<wezman2k> i'm confused
+<psyklic> with what? 
+<wezman2k> why is itcc a pointer to ITCC
+<m> <psyklic> the ITCC *itcc will be explained later
+<Elfs1der> he said he will explain that l8er
+<MrDeadDoll> oh god
+<psyklic> right, that's when we get into pointers i'd say :) 
+<wezman2k> ohhh i didn't see that
+<wezman2k> so much text in here
+<wezman2k> i miss things
+<psyklic> just make sure you call these functions using "itcc->" in front of them 
+<psyklic> and you're good 
+<psyklic> itcc->Clear() clears the window to black 
+<Elfs1der> shhhh let me the guy speak
+<psyklic> itcc->Text displays text on the screen at position 0,0 
+<psyklic> so how does a graphics window work? 
+<psyklic> where is (0,0)? anyone? 
+<Elfs1der> i mean let the guy speak*
+<MrDeadDoll> top left
+<psyklic> right 
+<WolfSpring> middle
+<psyklic> top left 
+<khehtra> middle?
+<ChaosCommand> hey psy, i got a question
+<khehtra> :(
+<ChaosCommand> what is the difference between using -> and . to access the stuff
+<wezman2k> khehtra: i though it would be bottom left
+<psyklic> think of it as quadrant 4 in the Cartesian system, except y INCREASES going down 
+<m> -> is for pointer
+<khehtra> i was thinking cartesian quardants or something liek it
+<psyklic> yeah, we'll get into that later 
+<m> i'm sure he'll go over that later
+<khehtra> cool
+<Zinoviev> yep later
+<psyklic> for now we need to just write that :) sort of like << in cout :) 
+<Goply> 320,240 would be the middle
+<psyklic> right 
+<wezman2k> i forgot, is . the scope resolution operator?
+<psyklic> so for a graphics window, (0,0) is upper left and (649, 479) is lower right 
+<psyklic> so y is up-down, and it increases going down 
+<psyklic> and x is left-right, increasing going right 
+<Zinoviev> You mean 639, 479
+<psyklic> ah yes good catch 
+<Elfs1der> wez: hold off on those quesions
+<WolfSpring> kinda like the way you read a book
+<khehtra> OOOoooo
+<psyklic> lol wez, feel free to email me some questions :) 
+<Sargos> We need a really long QA session at the end :-)
+<psyklic> now here's the tricky part 
+<psyklic> the while loop 
+<ChaosCommand> not really that tricky ;)
+<psyklic> this is a loop that will always repeat the Clear and Text command :) 
+<psyklic> over and over and over 
+<Elfs1der> slide #?
+<wezman2k> lol well someone asked what the difference between -> and . is, and i couldn't remember
+<psyklic> forever 
+<psyklic> (21) 
+<psyklic> well, not forever 
+<Elfs1der> thx
+<psyklic> but until you exit the app 
+<psyklic> so what's actually happening is 
+<psyklic> that you see the text on the screen, 
+<psyklic> but 30 times a second, the screen is actually being cleared and redrawn! 
+<MrDeadDoll> whoa
+<Ari> is that not inefficient?
+<wezman2k> why not just print it to the screen?
+<psyklic> it is inefficient 
+<wezman2k> i didn't compile this, so i never saw what the output was
+<ChaosCommand> it is a tutorial
+<ChaosCommand> it isn't supposed to be efficient
+<ChaosCommand> he is just using for demostration
+<ChaosCommand> :)
+<WolfSpring> this is a begining for fps? just using one thing right now?
+<wezman2k> it's a good way to explain a while loop though i suppose
+<psyklic> but if you're a game, it's a lot easier to clear the screen 30 times a second if your graphics card can handle it 
+<Dimitris> Because it could change later
+<psyklic> most games will do it this way simply because they can 
+<Ari> ok
+<psyklic> redrawing the screen that quickly is enough to fool the eyes into seeing motion 
+<psyklic> Wolf: you can make an FPS out of it eventually :) 
+<wezman2k> like flipping cards really fast?
+<psyklic> right 
+<psyklic> and 
+*** Signoff: Kaize (Quit:  PJIRC forever!)
+<psyklic> the reason you don't see it change is simple 
+<khehtra> ooo
+<psyklic> the screen is only updated when you call the itcc->Flip() command 
+<psyklic> so what is actually happening is 
+<psyklic> when you clear the screen and draw text, 
+<psyklic> you're not doing it on the monitor 
+<psyklic> you're doing it on a secret drawing board 
+<psyklic> then when that Flip() command is called 
+<ChaosCommand> buffer
+<bigmano5> ok
+<Zinoviev> (back buffer)
+<ChaosCommand> yah
+<psyklic> you're really quickly flipping that drawing board/buffer onto the monitor 
+<psyklic> yes, this secret drawing board is called the "back buffer" 
+<ChaosCommand> what is buffer overrun... i think i heard that before
+<Elfs1der> brb coke
+<khehtra> that when u mess up on a cdrw
+<wezman2k> when the buffer is overrun
+<Ari> lol
+<psyklic> Chaos: when you write to memory that is beyond that which you allocated 
+<khehtra> or something lol
+<Zinoviev> lol
+<ChaosCommand> oh, so that is like screwing up in an array or something
+<psyklic> ok so that's the layman speech on how graphics work :) 
+<bigmano5> lol
+<Zinoviev> Very cool
+<m> (google for buffer overrun) 
+<wezman2k> like overflowing
+<khehtra> that wa slayman
+<wezman2k> a variable
+<khehtra> *was
+<khehtra> jesus
+<MrDeadDoll> so its like a playing card? you have a front and back, and you flip it to see each side?
+<bigmano5> ok
+<khehtra> lol
+<ChaosCommand> exactly
+<psyklic> Flip() returns a value ... and if that value equals, NULL our program is finished 
+<psyklic> so we exit the loop 
+<psyklic> think of != being "not equals" 
+<ChaosCommand> it's kinda like flipping pages, only you are flipping back and forth between them
+<MrDeadDoll> gotcha
+<bigmano5> got it
+<ChaosCommand> = and == really drove me nuts in the beginning
+<ChaosCommand> i understand it now
+<psyklic> there are actually several ways to render graphics/flip pages/copy buffers, but we'll get into that later probably 
+<wezman2k> = == equals
+<wezman2k> assignment
+<wezman2k> whatever
+<psyklic> The Flip() command should return NULL if the user presses the Close button 
+<ChaosCommand> = assign to, == equals to
+<psyklic> so that will exit the while loop and you'll return 0 (exit normally) 
+<wezman2k> what if you return 1?
+<wezman2k> would that affect the program
+<bigmano5> ur screwed
+<ChaosCommand> 1 would return an error?
+<ChaosCommand> or is it -1?
+<psyklic> if some of you want to go, please feel free at any time, i'm just going to keep going though, sorry for going so long so far :) 
+<Goply> it wont build, i tryed that once lol
+<psyklic> wez: nothing would generally happen if you return 1 
+<wezman2k> alright
+<MrDeadDoll> what does 1 mean? i dont get it
+<Elfs1der> hehe its already 12 at night here
+<psyklic> you usually send that value back to the Operating System 
+<bigmano5> so would it just freeze
+<psyklic> and the OS decides what to do with it (usually nothing) 
+<ChaosCommand> 1 means on, 0 means off, so what does a -1 value equal?
+<ChaosCommand> i read a tutorial about -1 
+<ChaosCommand> i dunno
+<psyklic> Chaos: you're thinking of binary code :) 
+<ChaosCommand> nevermind!
+<Ari> lol
+<ChaosCommand> yes, i'm off
+<psyklic> Chaos: you can return any number 
+<bigmano5> lol
+<psyklic> ok (Slide 24) 
+<psyklic> i'm going to get through the if statement then probably stop for questions 
+<bigmano5> ok
+<ChaosCommand> if you can
+<psyklic> and perhaps you can look into the rest on your own 
+<ChaosCommand> please do
+<ChaosCommand> else don't
+<wezman2k> if statemnts rule
+<psyklic> ok, very simply, this is an easy statement to understand: 
+<wezman2k> lol chaos...
+<psyklic> if (KEYDOWN(VK_UP)) 
+<psyklic> we're saying "If the UP key is pressed, then ..." 
+<ChaosCommand> up key
+<psyklic> right 
+<psyklic> VK stands for Virtual Key 
+<ChaosCommand> is that the same when using Direct X?
+<psyklic> yes 
+<ChaosCommand> alright
+<psyklic> in fact, VK_UP is the same in Windows programming 
+<psyklic> if you look up VK_UP, it's in one of the Windows SDK files 
+<ChaosCommand> I saw someone use an array to hold key presses or something
+<bigmano5> so u could like use it to move a pixel across the screen
+<psyklic> Chaos: right, that's one way to do it 
+<psyklic> bigmano: yep 
+<ChaosCommand> i didn't understand it though :-P
+<wezman2k> just light basically
+<psyklic> lol ok so if i the UP key is pressed, then i'm going to display "Up key down!" on the screen 
+<psyklic> otherwise, i'm going to skip the code in the braces 
+<psyklic> so if the statement in the parentheses IS TRUE, then i'm going to execute what's in the braces 
+<ChaosCommand> what slide are we on, i got cought up in talking
+<psyklic> (24) 
+<ChaosCommand> thanks
+<psyklic> think of it like this: 
+<Ari> or you could refresh the display zooming in giving the perception of walking forwards in a FPS?
+<psyklic> IF the statement is true, THEN execute what's in the braces 
+<psyklic> Ari: yes if you want to 
+<Ari> cool :)
+<psyklic> Chaos: does that make sense? 
+<ChaosCommand> yes it does
+<ChaosCommand> :)
+<psyklic> KEYDOWN(VK_UP) will return TRUE if the key is pressed and FALSE if it isn't 
+<psyklic> so the if statement decides whether TRUE is inside the parentheses 
+<Elfs1der> Psy: how much longer do you think we will be talking today?
+<psyklic> i'm going to stop after the if statement 
+<Ari> is the code constantly checking the key?
+<ChaosCommand> oh dang
+<Elfs1der> ok cool
+<psyklic> Ari: yes, IF you put it inside that while loop! 
+<ChaosCommand> in the while statement
+*** Signoff: wezman2k (Quit:  ( www.nnscript.de :: NoNameScript 3.81 :: www.XLhost.de ))
+<psyklic> that's the key 
+<Ari> ok
+<psyklic> put it in the braces under the while statement 
+<psyklic> so ... if (1) ... is this valid? 
+<m> yes.
+<bigmano5> how could you make it change the values of x and y for like the hello text
+<m> ;)
+<Goply> yes
+<ChaosCommand> 1 is true
+<Elfs1der> well i'm out guys, i have already done the if statement before in many languages, but anyways this class thing is a great idea
+<psyklic> yep, it turns out to the C compiler, 0 is FALSE and any other number is TRUE 
+<psyklic> by Elfs :) thanks 
+<Elfs1der> is the homework posted?
+<MrDeadDoll> so if (0) is not valid?
+<psyklic> Elfs: not yet, probably tonight 
+<Elfs1der> ok
+<Elfs1der> well cya l8er
+<ChaosCommand> well if(0) would never execute
+<Goply> HW0++
+<ChaosCommand> well
+<ChaosCommand> actually
+<psyklic> bigops: we'll be talking about changing numbers next lecture 
+<ChaosCommand> i take that back
+<Zinoviev> Alrighty folks, I'm off but I'll see you all soon. Thanks Psy. It was great!
+<bigmano5> ok
+<psyklic> thanks :) 
+<Zinoviev> L8R
+*** Signoff: Elfs1der (Quit:  )
+<WolfSpring> when we are done can someone save to a text file so I can review what i lost?
+<psyklic> yes, i'll post my log 
+*** Signoff: Zinoviev (Quit:  PJIRC forever!)
+<bigmano5> ok
+<ChaosCommand> hey psy, do you happen to have any instant messaging programs that we can get in touch with you
+<psyklic> ok, one more slide 
+<ChaosCommand> or should we do it by e-amil
+<ChaosCommand> e-mail*
+<psyklic> Chaos: i'd prefer email 
+<ChaosCommand> alright
+<psyklic> i'm going to get through slide 25 then stop 
+<psyklic> (25) 
+<bigmano5> ok
+<psyklic> finally, we can use the 'else' command after an 'if' block 
+*** Signoff: rlui (Quit:  PJIRC forever!)
+<psyklic> that is saying IF the up key is down then display something, ELSE display something else 
+<psyklic> so you will execute one branch of code or IN ALL OTHER CIRCUMSTANCES the second branch 
+<psyklic> so this is sort of an if/else statement is what it's called 
+<Ari> if all this is in the infinite (until exit) while loop, doesnt that mean we have to put all of our code within the while loop otherwise nothing else will get executed?
+<psyklic> Ari: that's correct 
+<Ari> ok thx
+<ChaosCommand> so
+<reversEnginer> good question
+<ChaosCommand> if you have an if statement
+<ChaosCommand> and else if statements
+<ChaosCommand> if none of those are true, the else statement would be executed?
+<psyklic> i'll post an if statement example in with HW1 :) 
+<psyklic> that's right! 
+<ChaosCommand> ^_^
+<psyklic> 'else if's can be used such as ... IF the first is true, then executre this, ELSE, IF this is true do this, ELSE do this 
+<psyklic> so you can chain them on forever 
+<psyklic> just remember that if comes first, 'else if's in the middle, and else at the end 
+<Goply> if you have a while loop in a differant file that you only want to run for alittle while is there a way to make it stop without having to restart the program?
+<bigmano5> isnt it more efficent to use switch instead of a ton of ifs
+<psyklic> that's a little confusing, so post on the board if you have other questions 
+<ChaosCommand> switch statements can only be used in certain situations i beleive
+<psyklic> Goply: yes 
+<bigmano5> ok
+<psyklic> Goply: that's more advanced though 
+<psyklic> bigman: switch statements are only more efficient if you know how to use them correctly :) 
+<Goply> ok
+<WolfSpring> goply you can use the while to only go untill something is met, like while x > 5 and once x goes below 5 it will stop
+<bigmano5> heh ok
+<psyklic> for instance ,the values you're testing should be contiguous 
+<psyklic> ok i think i'm done for now :) 
+<m> !
+<bigmano5> ok
+<m> question
+<khehtra> sweet
+<psyklic> sorry that i wasn't able to use voice this time 
+<WolfSpring> wow, that was alot for one day
+<m> while (itcc->Flip() != NULL)
+<ChaosCommand> it's okay
+<psyklic> yes m? 
+<m> you can just use  while (itcc->Flip())
+<m> right?
+<khehtra> im sorta confused on alor of parts but im still good
+<WolfSpring> I think mine is up now, a little late, it was a browser issue to change the public/private feature
+<psyklic> that's right m 
+<MrDeadDoll> Are you going to go over set pixels next lesson?
+<m> m smart
+<reversEnginer> thanks for the lecture psy, i'm looking forward to the next one
+<reversEnginer> later
+*** Signoff: reversEnginer (Quit:  PJIRC forever!)
+<psyklic> thanks 
+<Ari> thanks psy, nice chattin 2 u all
+<psyklic> MrDeadDoll: i actually think i'm going to see if you guys can get that for the homework 
+<psyklic> by Ari 
+<MrDeadDoll> ok cool
+<psyklic> i hope these slides are enough to explain it 
+<Ari> nite 
+<ChaosCommand> ^_^ the slides are awesome
+<psyklic> you see, SetPixel is sort of an added feature 
+*** Signoff: Ari (Quit:  )
+<psyklic> it isn't a C++ concept or anything 
+<psyklic> it's just to play around with 
+<MrDeadDoll> oh ok
+<WolfSpring> hey psy is there a way once this gets going on schedule that someone could record these voice and text for those of us who can't stay up late, and we can do them the next day?
+<ChaosCommand> SetPixel is a DX thing?
+<khehtra> so did everyone get there hello graPHICS to work?
+<psyklic> in fact, i hope you all can write your own SetPixel later on 
+<ChaosCommand> or Win API thing
+<Goply> what are setpixels?
+<bigmano5> ok
+<bigmano5> that would be cool
+<psyklic> WolfSpring: we'll be recording the voice and posting them 
+<Goply> using more then one at a time?
+<psyklic> Chaos: SetPixel is a YOU thing 
+<psyklic> :) 
+<psyklic> Chaos: what i mean is, you'll be writing the SetPixel function later in this course 
+<WolfSpring> thank you, it's stupid I gotta get up at 4 am during the week to inspect soldiers rooms :(
+<m> will we be covering any opengl? or just dx3d
+<ChaosCommand> ah
+<psyklic> WolfSpring: i agree :P 
+<ChaosCommand> so it is a fuction you make, to easily set the pixel stuff
+<ChaosCommand> like color
+<psyklic> Goply: a pixel is the smallest displayable element on your screen ... the function SetPixel will light a single dot on your screen 
+<WolfSpring> can someone test my TS server see if it's public now? 69.68.177.4
+<MrDeadDoll> sure
+<psyklic> m: we will not be covering OGL or DX 
+<ChaosCommand> Wolf
+<ChaosCommand> not working
+<ChaosCommand> Error!
+<ChaosCommand> :P
+<m> error
+<WolfSpring> GDalwdfjkal;wefjwoepfuia
+<psyklic> m: we will be writing directly to our video cards ourselves 
+<khehtra> error
+<WolfSpring> I'm bout to give up
+<MrDeadDoll> Err
+<m> :o!!!
+<bigmano5> will we cover windows programming?
+<ChaosCommand> writitng directly to the video cards
+<khehtra> psy any books u recommended
+<ChaosCommand> hmmm
+<m> so.. do you recommend sharpie? or some pen for writing on the video card?
+<khehtra> or chaos
+<psyklic> Wolf: i get an error 
+<MrDeadDoll> lol
+<psyklic> bigmano: no windows progamming, sorry :P 
+<bigmano5> lol
+<bigmano5> ok
+<Sargos> This class assumes a lot of prior programming knowledge, we havn't even gone over variables uet
+<psyklic> bigmano: windows stuff is kind of complicated imo 
+<ChaosCommand> windows stuff is VERY complicated IMO
+<psyklic> sargos: i don't think it requires any prior knowledge 
+<ChaosCommand> I use C# for that stuff
+<bigmano5> yea imo too
+<MrDeadDoll> i dont know jack and im doing ok
+<psyklic> sargos: you shouldn't understand how any of these programs work at all yet 
+<psyklic> :) 
+<MrDeadDoll> i dont get everything, but im alright
+<khehtra> O thnks god Psy
+<khehtra> lol
+<khehtra> *phew*
+<psyklic> m: sharpies will work 
+<ChaosCommand> i'm always interested in the "WHY" question in programming
+<psyklic> khetra: please see the thread on books in the forums 
+<Goply> is there a way to use more then one pixel at a time? like placing (0,0) to (30,47) green and (31,48) to (50,70) red, without having to do them 1 by 1?
+<ChaosCommand> i believe you would use while loops
+<ChaosCommand> could you use a while loop to set the pixels
+<psyklic> Goply: yes, but we'll get into that next week 
+<Goply> ok
+<bigmano5> i cant wait till next week
+<ChaosCommand> me too
+<Goply> me eather =)
+<ChaosCommand> that's where it gets really fun
+<bigmano5> :P
+<psyklic> lol actually you should have a lot of fun with the homework i believe 
+<ChaosCommand> But i'm looking forward to the pointers and classes parts the most
+<khehtra> cool cool well imma email u if i still have probs with Hello Graphics
+<khehtra> imma head out to eat
+<khehtra> Niteee THnks!!!!! for the lesson
+<psyklic> sargos: do you feel the pace is too fast? you really shouldn't understand much about these functions yet 
+<ChaosCommand> cya khehtra
+<psyklic> thanks khehtra, bye 
+<bigmano5> yea this was great cant wait to get started on the hw
+<bigmano5> im out
+<m> roffle
+<psyklic> every book starts out with sort of some motivating programs, and you just have to jump in imo 
+<ChaosCommand> sargos, i think, that a lot about programming, isn't about knowing how to do something, it is knowing how to figure out how to do something
+<psyklic> i'll post the hw tonight i hope 
+<Sargos> The pace isn't really too fast... just like.... jumping around. We go from simple topics to way too advanced back to common sense things to advanced
+<m> first time i have heard that
+*** Signoff: bigmano5 (Quit:  Leaving)
+<m> can't wait to get hw!!
+<psyklic> sargos: ok, i'll tone it down for the next lecture, i just wanted to show everyone some simple programs 
+<ChaosCommand> yes, i want homework *you will never see me say this in school*
+<psyklic> lol 
+<ChaosCommand> :) i'm serious
+<Goply> =)
+<Goply> i feel the same way
+<MrDeadDoll> so its ok that i didn't understand half the things wez was talking about right? lol
+<ChaosCommand> MrDeadDoll, i think if i was back learning, i'd probably not understand that much he was talking about
+<psyklic> MrDeadDoll: yes, you should understand a lot more after HW1 imo 
+<ChaosCommand> hey MrDeadDoll, i added you to my Yahoo Messenger, if you want, we can talk later
+<ChaosCommand> i added you about 2 or 3 days ago
+<MrDeadDoll> ok sweet
+<ChaosCommand> haven't seen you come online though
+<Goply> knowing is half the battle
+<MrDeadDoll> yeah i always forget to turn it on, i'll start though
+<Goply> sorry thought that fit
+<m> yahoo = teh sux
+<m> they blocked trillian :|
+<ChaosCommand> if anyone wants to add me to there friends list  ChaosCommand@charter.net  for msn messenger,  CYI2004 for AIM, jjva99 for yahoo
+<MrDeadDoll> Alright, im gonna go make sense of all these notes I was writing.  Thanks Psy, you rule!
+<MrDeadDoll> Adios all
+<ChaosCommand> cya
+*** Signoff: MrDeadDoll (Quit:  PJIRC forever!)
+<khehtra> ur my new fwend!
+<ChaosCommand> hey Psy, are you going to go into For and Do While loops
+<ChaosCommand> i never use them, but i was wondering if they are usefull
+<m> YES
+<Goply> im Goply@qwest.net on msn messenger
+<m> for = best
+<m> while = bester
+<psyklic> Chaos: yes, they are VERY useful, we'll go over them next week or the week after 
+<ChaosCommand> alright, cool
+<psyklic> for/while are of equal importance 
+<psyklic> ok everyone, please feel free to chat some more, but i need to get this homework uploaded ... thanks a lot for coming! 
+<ChaosCommand> alright thanks for teaching us psy
+<ChaosCommand> you are the greatest
+<ChaosCommand> can't wait for that homework
+* m slaps ChaosCommand
+<ChaosCommand> * And Psy gets a..... 5   out of   5 *
+<m> snap out of it
+<ChaosCommand> HOMEWORK!!!!!!!!
+<Goply> thank you psyklic
+<Dimitris> we thank you
+<ChaosCommand> WE WANT HOMEWORK
+<ChaosCommand> :)
+<m> ...
+<m> x-play?
+<Goply> cant wait for the homework
+<ChaosCommand> yah
+<m> hehe
+<ChaosCommand> x-play!!!!
+<m> i heard that voice when i read that
+<ChaosCommand> yup
+<ChaosCommand> although i wish TechTV and G4 didn't merge
+<ChaosCommand> i liked TechTV by itself
+<m> :/
+<ChaosCommand> now The Screen Savers are loosing patrick norton
+<m> i hated that one nerdy guy
+<m> hopefully he got run over
+<ChaosCommand> Leo Laporte he was the greatest
+<m> where do you live
+<ChaosCommand> Keven Rose, i have talked to him before
+<ChaosCommand> Virginia
+<m> whatever happened to thebroken =[
+<Goply> afk for a bit...
+<ChaosCommand> thebroken.org ?
+<m> correct.
+<ChaosCommand> i dunno, only been there a few times
+<ChaosCommand> The only shows I watch on G4, are The Screen Savers, X-Play, and .... well, that's it
+<ChaosCommand> i like Robot Wars, but now it is repetitive
+<m> i don't watch tv
+<m> and omg it's another fly in my room
+<ChaosCommand> me either really
+<m> geez
+<m> it really distracts me :(
+<ChaosCommand> ESPN and G4 are the only channels i watch
+<ChaosCommand> i know
+<ChaosCommand> i hate flys
+<Dimitris> Hey guys a I got to go
+<Dimitris> LAter
+<ChaosCommand> especially when it is quiet
+<ChaosCommand> seeya
+<m> adios
+*** Signoff: Dimitris (Quit:  PJIRC forever!)
+<ChaosCommand> hey m, do you got any instant messaging programs?
+<m> msg: the_mole7@hotmail.com
+<m> aim: asespirit5
+<m> icq: 127756101
+*** Wolf (~WolfSprin@diboo-15D0F03.net1268.nc.sprint-hsd.net) has joined channel #itcc
+<m> and gamesurge irc.
+<m> :)
+<ChaosCommand> is ICQ any good?
+<m> eh
+<ChaosCommand> i had it a looooooong time ago
+<m> :/
+<m> i have no friends on it
+<Wolf> dang locked up, ok think i got it i was passing old TS server ip through router one more try for me: 69.68.177.4
+*** Signoff: WolfSpring (Ping timeout)
+<Wolf> yay it works!
+<m> pword?
+<Wolf> none
+<m> works
+<ChaosCommand> hmmm
+<ChaosCommand> mic isn't working
+<m> how do i talk? heh
+<Wolf> bout damn time, i feel stupid, all about two stuff
+<Wolf> you goto settings and set upa  key or talk into mic
+<m> your quiet wolf
+<m> sound sick :|
+<m> how do i talk?!?
+<m> >:(
+<m> i don't even see the option
+<m> now... he sounds like an alien.
+<m> voicebox.
+<m> dude
+<m> no settings
+<m> i have 'sound devices' tab
+<m> yeah i have settings
+<m> but no input/ouput
+*** Signoff: EugeneF (Quit:  )
+<m> oh,
+<m> that. :)
+<m> ok
+<m> right
+<m> two codecs
+<m> no settings to talk
+*** Signoff: khehtra (Quit:  )
+<Wolf> yeah now with all my reseting my router i've lost all irc chat stuff :(
+<m> it's late :/
+<Goply> how did you get it get mic to work?
+<m> settings
+<m> input/output :)
+<m> push to talk
+<m> soo quiet goply
+<m> wolf
+<m> do you have a headset?
+<Wolf> yeah
+<m> :/
+<m> lots of background shizzle noise
+<Wolf> it works best
+<Wolf> hey psyklic if you guys need me to host TS next time I think i can hold a few dozen people
+<m> -zzz-
+<Wolf> \name
+*** Signoff: Sargos (Quit:  PJIRC forever!)
+*** Signoff: lucars83 (Quit:  )
+<Goply> monday 6am i beleave
+<Wolf> hey psy is the homework still gonna be due on monday?
+<Wolf> xpakratx
+*** Signoff: Goply (Quit:  )
+<ChaosCommand> seeya wolf
+*** Wolf has left #itcc
+<ChaosCommand> I want homework! :)
+<psyklic> Wolf: thanks, we'll see whether we need help ... would tuesday give you enough time? i don't want to delay things too much 
+Session Close (#itcc): Fri Jul 02 00:37:37 2004
+
+
